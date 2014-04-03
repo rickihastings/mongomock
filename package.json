@@ -1,0 +1,32 @@
+{
+  "name": "mongomock",
+  "version": "0.0.1",
+  "description": "An npm module designed to be a non persistent in memory mini mongodb. Useful for mocking the functions mongodb native driver implements. Uses a lot of code from the wonderful https://github.com/mccormicka/Mockgoose",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rickihastings/mongomock.git"
+  },
+  "keywords": [
+    "mongodb",
+    "stub",
+    "mock",
+    "test",
+    "memory",
+    "nosql",
+    "database",
+    "mongo"
+  ],
+  "author": "Ricki Hastings <ricki@ircanywhere.com>",
+  "bugs": {
+    "url": "https://github.com/rickihastings/mongomock/issues"
+  },
+  "homepage": "https://github.com/rickihastings/mongomock",
+  "dependencies": {
+    "lodash": "^2.4.1",
+    "mongodb": "^1.4.0"
+  }
+}
