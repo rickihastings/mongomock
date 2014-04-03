@@ -1,14 +1,9 @@
 var _ = require('lodash'),
-	mongo = require('mongodb'),
-	MongoClient = require('./lib/mongo_client').MongoClient;
+	MongoClient = require(__dirname + '/lib/mongo_client').MongoClient;
 
-ObjectID = mongo.ObjectID;
-DataStore = {};
-// globally define a db object which will house the data
+exports.MongoClient = MongoClient;
 
-exports.MongoClient = new MongoClient();
-
-exports.MongoClient.connect('mongodb://127.0.0.1:27017/test', function(err, db) {
+/*new MongoClient().connect('mongodb://127.0.0.1:27017/test', function(err, db) {
 	if (err) {
 		throw err;
 	}
@@ -16,4 +11,4 @@ exports.MongoClient.connect('mongodb://127.0.0.1:27017/test', function(err, db) 
 	var newCol = db.collection('new');
 
 	console.log(DataStore);
-});
+});*/
