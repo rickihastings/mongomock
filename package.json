@@ -30,6 +30,7 @@
     "mongodb": "^1.4.0"
   },
   "devDependencies": {
-    "lab": "^3.0.0"
+    "lab": "^3.0.0",
+    "mockgoose": "^1.8.1"
   }
 }

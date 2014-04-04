@@ -1,5 +1,5 @@
 var Lab = require('lab'),
-	mongomock = require('../index.js'),
+	mongomock = require('..'),
 	MongoClient = new mongomock.MongoClient();
 
 var describe = Lab.experiment,
